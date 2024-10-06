@@ -31,9 +31,9 @@ Default output format [None]: json
         --queue-url http://localhost:4566/000000000000/my-sqs-queue \
         --attribute-names QueueArn
     aws --endpoint-url=http://localhost:4566 sns subscribe \
-    --topic-arn arn:aws:sns:us-east-1:000000000000:my-sns-topic \
-    --protocol sqs \
-    --notification-endpoint arn:aws:sqs:us-east-1:000000000000:my-sqs-queue
+        --topic-arn arn:aws:sns:us-east-1:000000000000:my-sns-topic \
+        --protocol sqs \
+        --notification-endpoint arn:aws:sqs:us-east-1:000000000000:my-sqs-queue
 
 
   
