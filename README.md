@@ -15,9 +15,9 @@ Requisitos:
 Após instalar o Aws Cli, não precisamos necessariamente de uma conta:
 
     aws configure
-AWS Access Key ID [None]: test
-AWS Secret Access Key [None]: test
-Default region name [None]: us-east-1
+AWS Access Key ID [None]: test <br/>
+AWS Secret Access Key [None]: test <br/>
+Default region name [None]: us-east-1 <br/>
 Default output format [None]: json
 
 **Criar SNS e SQS:**
